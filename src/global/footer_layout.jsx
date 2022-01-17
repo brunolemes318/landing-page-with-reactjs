@@ -18,10 +18,9 @@ export default function Footer(props) {
             <div className="style-layout-buttons">
                 <ButtonSocial />
             </div>
+            <div>
 
-
-
-
+            </div>
         </footer>
     )
 }
