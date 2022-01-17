@@ -3,6 +3,11 @@ import ButtonSocial from "./button_social_body_component"
 import '../../themes/layout/body_theme.scss'
 
 export default function GridTextImagem(props) {
+    
+    if(props.condicao == 1){
+
+    }
+    
     return (
 
         <div className={props.style}>

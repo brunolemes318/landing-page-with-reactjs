@@ -1,8 +1,19 @@
 @import "./../base/colors";
 
 .style-banner-footer {
+    height: 280px;
     width: 100%;
-    height: 300px;
     background-color: $color-footer;
+}
+
+.style-layout-text{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+}
+
+.style-layout-buttons{
+    justify-content: center;
+    display: flex;
 }

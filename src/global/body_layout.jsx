@@ -68,7 +68,7 @@ export default function Body(props) {
 
 
 
-                
+
                 <CardInformation
                     color="#FF814A"
                     description="Baixe o aplicativo gratuitamente"
@@ -85,9 +85,9 @@ export default function Body(props) {
 
                 />
 
-              
 
-                
+
+
             </div>
         </main>
     )
