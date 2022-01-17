@@ -1,0 +1,61 @@
+@import "./colors";
+
+$font-family: Arial, Helvetica, sans-serif;
+
+
+@mixin style-text-of-footer {
+    font-size: 28px;
+    color: $color-font-card-footer;
+    text-align: center;
+    font-family: $font-family;
+   
+}
+
+@mixin style-text-of-card {
+  font-size: 30px;
+  color: $color-font-card-footer;
+  font-family: $font-family;
+  
+}
+
+@mixin style-button-commom {
+  font-size: 18px;
+  color: $color-font-page;
+  font-family: $font-family;
+  font-weight: 400;
+  border: none;
+}
+
+@mixin style-text-banner {
+  font-size: 44px;
+  color: $color-font-page;
+  font-weight: 300;
+  font-family: $font-family;
+  padding: 0px;
+  margin: 5px;
+}
+
+@mixin style-text-substitle {
+  font-size: 24px;
+  color: $color-font-page;
+  font-weight: 300;
+  font-family: $font-family;
+  padding: 0px;
+  margin: 5px;
+}
+
+.style-text-of-card {
+  @include style-text-of-card;
+}
+
+.style-text-commom {
+  @include style-text-banner;
+}
+
+.style-text-substitle {
+  @include style-text-substitle;
+}
+
+.style-text-of-footer{
+    @include style-text-of-footer
+}
